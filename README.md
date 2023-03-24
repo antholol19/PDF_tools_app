@@ -18,4 +18,5 @@ This project uses these following technologies:
 * Move to your project directory: `cd project`<br>
 * Create a virtual environement `python -m venv venv`<br>
 2. Activate the environment: `venv\Scripts\activate.bat`
-3. Install PyPDF2: `pip install PyPDF2`
+3. Install Flask: `pip install Flask`
+4. Install PyPDF2: `pip install PyPDF2`
