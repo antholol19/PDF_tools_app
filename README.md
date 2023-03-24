@@ -16,6 +16,6 @@ This project uses these following technologies:
 * Move to the directory where your project will be located: `cd \path\to\project`
 * Create a project folder: `mkdir project`<br>
 * Move to your project directory: `cd project`<br>
-* Create a virtual environement `python -m venv myenv`<br>
-2. Activate the environment: `myenv\Scripts\activate.bat`
+* Create a virtual environement `python -m venv venv`<br>
+2. Activate the environment: `venv\Scripts\activate.bat`
 3. Install PyPDF2: `pip install PyPDF2`
