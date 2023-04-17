@@ -6,7 +6,7 @@ This app allows you to upload your pdf files and merge them together in selected
 ### Technologies:
 This project uses these following technologies:
 * Python 3.7 and more
-* Flask 2.0 and more
+* Django 3.2 and more 
 
 ### Python Packages:
 * PyPDF2 3.0.0
@@ -18,5 +18,5 @@ This project uses these following technologies:
 * Move to your project directory: `cd project`<br>
 * Create a virtual environement `python -m venv venv`<br>
 2. Activate the environment: `venv\Scripts\activate.bat`
-3. Install Flask: `pip install Flask`
+3. Install Django: `pip install django`
 4. Install PyPDF2: `pip install PyPDF2`
