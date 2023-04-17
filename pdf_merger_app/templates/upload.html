@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django - Multiple Files Upload</title>
+    </head>
+    <body>
+		<div style="width: 500px; margin: auto;">
+            {% if msg %} {% autoescape off %} {{ msg }} {% endautoescape %} {% endif %}
+            <form method="post" action="/" enctype="multipart/form-data">
+                {% csrf_token %}
+                <p>
+                    {{ form.files }}
+                </p>
+                <p><input type="submit" value="Upload"></p>
+            </form>
+		</div>
+    </body>
+</html>
